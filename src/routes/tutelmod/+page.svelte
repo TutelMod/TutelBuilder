@@ -1,0 +1,46 @@
+<script>
+    import { onMount } from "svelte";
+    onMount(() => {
+        window.location.href =
+            `https://tutelmod.github.io`;
+    });
+</script>
+
+<svelte:head>
+    <title>Redirecting</title>
+    <meta name="title" content="TutelMod - Home" />
+    <meta property="og:title" content="TutelMod - Home" />
+    <meta property="twitter:title" content="TutelMod - Home">
+    <meta name="description" content="The area where featured projects and community stuff & info is shown.">
+    <meta property="twitter:description" content="The area where featured projects and community stuff & info is shown.">
+    <meta property="og:url" content="https://tutelmod.com/">
+    <meta property="twitter:url" content="https://tutelmod.com/">
+</svelte:head>
+<div>
+    If you are not redirected automatically,
+    <a href="https://tutelmod.github.io">click here</a>
+</div>
+
+<style>
+    * {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: white;
+    }
+
+    a {
+        margin-left: 4px;
+    }
+
+    div {
+        background: #00cc33;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        overflow: hidden;
+        justify-content: center;
+    }
+</style>
