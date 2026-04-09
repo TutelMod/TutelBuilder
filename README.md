@@ -1,2 +1,2 @@
 # This repo is outdated, go use the NEW repo!!
-https://github.com/TutelMod/TutelBuilder/
+https://github.com/TutelMod/TutelForge/
